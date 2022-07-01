@@ -1,5 +1,5 @@
 # Travel-The-World-BLOG
-# some images from the website
+# Some images from the website
 ![chrome_YMaidubSs9](https://user-images.githubusercontent.com/62139647/176956896-5de31541-a3ed-4b49-8fef-59cfa72ff50b.png)
 ![chrome_mJJo7d988n](https://user-images.githubusercontent.com/62139647/176957640-acebe598-90f2-45e1-8df8-2aaef9d37f48.png)
 ![chrome_IQCKHHpNxy](https://user-images.githubusercontent.com/62139647/176956908-ee5ae93f-7411-493d-91e3-78dd27696476.png)
