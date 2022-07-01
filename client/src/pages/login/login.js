@@ -24,32 +24,61 @@ const Login = () => {
   };
 
   return (
-    <div className='login'>
-      <span className='loginTitle'>Login</span>
-      <form className='loginForm' onSubmit={handleSubmit}>
-        <label>Username</label>
-        <input
-          type='text'
-          className='loginInput'
-          placeholder='Enter your username...'
-          ref={userRef}
-        />
-        <label>Password</label>
-        <input
-          type='Password'
-          className='loginInput'
-          placeholder='Enter your password...'
-          ref={passwordRef}
-        />
-        <button className='loginButton' type='submit' disabled={isFetching}>
-          Login
+    <div class='background'>
+      <div className='login'>
+        <span className='loginTitle'>Login</span>
+        <form className='loginForm' onSubmit={handleSubmit}>
+          <label>Username</label>
+          <input
+            type='text'
+            className='loginInput'
+            placeholder='Enter your username...'
+            ref={userRef}
+          />
+          <label>Password</label>
+          <input
+            type='Password'
+            className='loginInput'
+            placeholder='Enter your password...'
+            ref={passwordRef}
+          />
+          <button className='loginButton' type='submit' disabled={isFetching}>
+            Login
+          </button>
+        </form>
+        <button className='loginRegisterButton'>
+          <Link className='link' to='/register'>
+            Register
+          </Link>
         </button>
-      </form>
-      <button className='loginRegisterButton'>
-        <Link className='link' to='/register'>
-          Register
-        </Link>
-      </button>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </div>
     </div>
   );
 };

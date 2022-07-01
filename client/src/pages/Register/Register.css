@@ -1,20 +1,5 @@
-.register {
-  background: linear-gradient(236deg,#2d646c,#517d89,#dfe7e8,#9db7c8);
-  background-size: 240% 240%;
-  animation: gradient-animation 36s ease infinite;
-}
 
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
+
 .register {
     
     height: calc(100vh - 50px);
