@@ -19,10 +19,13 @@ app.use(cors());
 
 const URI = process.env.MONGODB_URL;
 mongoose
-  .connect("mongodb://localhost:27017", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(
+    "mongodb+srv://Fares:24244848@gmc.nanwc.mongodb.net/?retryWrites=true&w=majority",
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    }
+  )
   .then(console.log("Connected to MongoDB"))
   .catch((err) => console.log(err));
 
